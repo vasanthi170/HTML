@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>create table</title>
+</head>
+<body align="center">
+    <h1 style="background-color: blueviolet;"> Student table </h1>
+   <table border ="2px" width="500" height="500" align="center"> 
+    <thead> 
+        <tr>
+        <th> Reg no </th>
+        <th>Name</th>
+        <th> Dept </th>
+        <th> Clg name </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td>411520106001</td>
+            <td>abinaya</td>
+            <td>ECE</td>
+            <td>PERI IT</td>
+        </tr>
+        <tr> 
+            <td>411520106008</td>
+            <td>chandhana priya</td>
+            <td>ECE</td>
+            <td>PERI IT</td>
+        </tr>
+        <tr> 
+            <td>411520106010</td>
+            <td>vasanthi</td>
+            <td>ECE</td>
+            <td>PERI IT</td>
+        </tr>
+        <tr> 
+            <td>411520106016</td>
+            <td>vikash</td>
+            <td>ECE</td>
+            <td>PERI IT</td>
+        </tr>
+        <tr> 
+            <td>411520106038</td>
+            <td>prathap</td>
+            <td>ECE</td>
+            <td>PERI IT</td>
+        </tr>
+        <tr> 
+            <td>411520106032</td>
+            <td>susmitha</td>
+            <td>ECE</td>
+            <td>PERI IT</td>
+        </tr>
+        <tr> 
+            <td>411520106046</td>
+            <td>thatchayani</td>
+            <td>ECE</td>
+            <td>PERI IT</td>
+        </tr>
+    </tbody>
+   </table> 
+</body>
+</html>
