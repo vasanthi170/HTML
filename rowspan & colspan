@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <title>New Tab</title>
 </head>
 <body>
-    
     <u><h1> Seminar Table</h1></u>
- 
-    
 </body>
 <table border="2" width="400" height="400" >
     <thead>
