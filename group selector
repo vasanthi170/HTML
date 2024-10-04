@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>group selector</title>
+    <style>
+        h1,.one,#two,[align]{
+            background-color: blue;
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="one"> Vasu</h1>
+    <h2 id="two">vasanthi</h2>
+    <h1 align="center"> vasanthi reddy</h1>
+</body>
+</html>
