@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .one
+        {
+            background-color: darkkhaki;
+        }
+        .two
+        {
+            background-color: darkmagenta;
+        }
+    </style>
+    <title>class selector</title>
+</head>
+<body>
+    <h1 class="one"> Vasu</h1>
+    <h2 class="two">Prathap</h2>
+    <h1 class="one"> Thatchu</h1>
+    <h1 class="two"> Vikash</h1>
+    <h2 class="one">Abhi</h2>
+</body>
+</html>
