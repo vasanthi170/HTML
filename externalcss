@@ -10,7 +10,18 @@
     <h2>Sireesha</h2>
     <h2>Siri</h2>
     <h3>Vasanthi</h3>
-    <h3>Vasu</h3>
-    
+    <h3>Vasu</h3> 
 </body>
 </html>
+
+
+externalcss...
+h1{
+    background-color: blueviolet;
+}
+h2{
+    background-color: brown;
+}
+h3{
+    background-color: aqua;
+}
