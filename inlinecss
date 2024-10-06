@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Instagram</title>
+</head>
+<body>
+    <h1 style="background-color: aquamarine;" align="center">Instagram</h1>
+    <h1 style="background-color: blue;" align="center"> whatsapp</h1>
+    <h2 style="background-color:burlywood;" align="center"> Snapchat</h2>
+    <h2 style="background-color:rgb(103, 190, 38);" align="center"> youtube</h2>
+</body>
+</html>
