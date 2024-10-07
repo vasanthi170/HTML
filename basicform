@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login form</title>
+    <style>
+        .parent{
+            background-color: wheat;
+            width: 300px;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 20px;
+            margin:100px auto ;
+            box-shadow: 0px 0px 50px blueviolet;
+        }
+        .child{
+            margin-bottom: 20px;
+        }
+        input{
+            background: transparent;
+            border: none;
+            height: 25px;
+            width: 300px;
+            border-bottom: 2px dotted black;
+        }
+        body{
+            background-color: pink;
+        }
+        button{
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        ::placeholder{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="parent">
+            <div class="child">
+                <div class="text">
+                    <input type="text" placeholder="Enter the username">
+                </div>
+            </div>
+            <div class="child">
+                <input type="password" placeholder="Enter the password">
+            </div>
+            <div class="child">
+                <input type="password" placeholder="Re Enter the password">
+            </div class="child">
+                <button class="button">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
