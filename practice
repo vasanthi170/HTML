@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .abc{
+            background-color: aqua;
+            width: 50px;
+            padding: 15px 20px;
+            border-radius: 20px;
+            margin-left: 20px;
+            border: 6px dashed brown;
+        }
+        .bcd{
+            background-color: black;
+            color: darkorange;
+            width: 70px;
+            padding: 40px;
+            margin-left: 100px;
+            border-radius: 20px;
+            border: 8px solid green;
+        }
+        .parent{
+            background-color: yellow;
+            width: 150px;
+            border: 5px dashed black;
+            border-radius: 20px;
+            padding: 50px 60px;
+            margin-left: 250px;
+            
+        }
+        .child{
+            background-color: white;
+            padding: 20px 40px;
+            border: 8px solid black;
+            border-radius:20px;
+            width: 50px;
+            
+        }
+        .cde{
+            background-color: aquamarine;
+            padding: 25px 30px;
+            width: 65px;
+            margin-left: 500px;
+            border-radius: 20px;
+            border: 6px solid green;
+        }
+        .def{
+            background-color: plum;
+            padding: 25px 30px;
+            width: 65px;
+            margin-left: 600px;
+            border-radius: 20px;
+            border: 6px solid blueviolet;
+        }
+        .efg{
+            background-color: palevioletred;
+            padding: 25px 30px;
+            width: 65px;
+            margin-left: 700px;
+            border-radius: 20px;
+            border: 6px solid rgb(33, 9, 56);
+        }
+    </style>
+</head>
+<body>
+    <h2 class="abc"> Java </h2>
+    <h2 class="bcd"> Sql</h2>
+    <div class="parent"> HTML
+        <div class="child"> CSS </div>
+    </div>
+    <h3 class="cde">J2EE </h3>
+    <h3 class="def">Hibernat</h3>
+    <h3 class="efg">Servlats</h3>
+</body>
+</html>
