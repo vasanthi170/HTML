@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .parent{
+            background-color: rgb(61, 16, 16);
+            color: white;
+            margin: 50px auto;
+            padding:20px 80px 100px 40px;
+            width: 1000px;
+        }
+        p{
+            width: 40%;
+            text-align: left;
+        }
+        button{
+            padding: 10px 20px;
+        }
+        .bcd{
+            background-color: brown;
+            width: 100px;
+            margin-left:30px ;
+            padding: 10px;
+            text-align: center;
+            padding:0px 45px; 
+        }
+        .parentt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            width: 100%;
+        }
+        
+        img{
+            height: 60px;
+            width: 55px;
+            margin:0px 45px; 
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent"> 
+        <h1> Sample Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, amet voluptatibus? 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, amet voluptatibus? 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </p>
+        <button> Register Now! </button>
+    </div>
+    <div class="parentt">
+        <div class="bcd"> 
+            <img src="maps.png" alt="">
+            <p>Header Sample</p>
+        </div> 
+        <div class="bcd"> 
+            <img src="maps.png" alt="">
+            <p>Header Sample</p>
+        </div> 
+        <div class="bcd"> 
+            <img src="maps.png" alt="">
+            <p>Header Sample</p>
+        </div> 
+        <div class="bcd"> 
+            <img src="maps.png" alt="">
+            <p>Header Sample</p>
+        </div> 
+        <div class="bcd"> 
+            <img src="maps.png" alt="">
+            <p>Header Sample</p>
+        </div> 
+    </div>
+    
+</body>
+</html>
