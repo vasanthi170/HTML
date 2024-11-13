@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> attribute selector</title>
+    <style>
+        [align]{
+            color: cadetblue;
+        }
+        [align='center']{
+            color: chocolate;
+        }
+        h1[align='center']{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">ATTRIBUTE SELECTOR</h1>
+    <h2 align="right">ATTRIBUTE SELECTOR</h2>
+    <h1 align="left">ATTRIBUTE SELECTOR</h1>
+    <h2 align="center">ATTRIBUTE SELECTOR</h2>
+    <h1 align="right">ATTRIBUTE SELECTOR</h1>
+    <h2 align="left">ATTRIBUTE SELECTOR</h2>
+    <h1 align="center">ATTRIBUTE SELECTOR</h1>
+</body>
+</html>
+<!--applying css styles by using attributes.
+It is represented by using '[]'-->
