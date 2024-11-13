@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo class selector</title>
+    <style>
+        h1:hover{
+            background-color: aqua;
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Class Selector</h1>
+    <h1>Pseudo Class Selector</h1>
+    <h1>Pseudo Class Selector</h1>
+</body>
+</html>
