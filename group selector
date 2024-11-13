@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>group selector</title>
+    <title>Group Selector</title>
     <style>
-        h1,.one,#two,[align]{
-            background-color: blue;
-            color: chartreuse;
+        h1,h2,h3{
+            color:blue;
+        }
+        h1,.two,#two{
+            background-color:cornflowerblue;
         }
     </style>
 </head>
 <body>
-    <h1 class="one"> Vasu</h1>
-    <h2 id="two">vasanthi</h2>
-    <h1 align="center"> vasanthi reddy</h1>
+    <h1>Group Selector</h1>
+    <h2>Group Selector</h2>
+    <h3>Group Selector</h3>
+    <h1 id="two">Group Selector</h1>
+    <h2 class="two">Group Selector</h2>
+    <h3>Group Selector</h3>
 </body>
 </html>
+<!--combination of one or more selectors is known as group selectlor.
+It is represented by using ','-->
