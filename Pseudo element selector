@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo element selector</title>
+    <style>
+        h1::first-letter{
+            color: rgb(220, 163, 8);
+        }
+        p::after{
+            content: 'Bye Jspiders!';
+        }
+        p::before{
+            content: 'Bye Jspiders!';
+        }
+        p::selection{
+            background-color: aqua;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSpiders</h1>
+    <p>Hello Jspiders!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem animi fugiat quam labore! Dicta iure, odio blanditiis qui quis dolorum ex! Voluptate aspernatur quod minima repelle.
+    Cupiditate in, molestiae omnis expedita fuga vero a recusandae molestias officiis natus temporibus eius repellat maxime quidem tenetur explicabo alias eaque ducimus
+    porro aspernatur suscipit nobis ipsam animi provident quidem ducimus odit quaerat deleniti soluta ab, earum id deserunt illum sint sequi autem rem magnam amet harum libero? Quibusdam?
+   </p>
+</body>
+</html>
+<!--By using pseudo element selctor we can apply css styles for specific part of html elements.
+it is represented by using '::'-->
