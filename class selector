@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>CLASS SELECTOR</title>
     <style>
-        .one
-        {
-            background-color: darkkhaki;
-        }
-        .two
-        {
-            background-color: darkmagenta;
+        .abc{
+            background-color: blue;
+            color: beige;
         }
     </style>
-    <title>class selector</title>
 </head>
 <body>
-    <h1 class="one"> Vasu</h1>
-    <h2 class="two">Prathap</h2>
-    <h1 class="one"> Thatchu</h1>
-    <h1 class="two"> Vikash</h1>
-    <h2 class="one">Abhi</h2>
+    <h1 class="abc"> CLASS SELECTOR </h1>
+    <h1 class="abc"> CLASS SELECTOR </h1>
 </body>
 </html>
+<!--By using class selector we can apply css styles for group of elements.
+it is represented by using '.'-->
